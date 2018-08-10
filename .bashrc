@@ -56,6 +56,7 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# ------------ UPRAVNENÉ BARVY ------------
 if [ "$color_prompt" = yes ]; then
     PS1='${debian_chroot:+($debian_chroot)}\[\033[1;32m\]\u\[\033[00m\]\[\033[0;35m\]@\[\033[00m\]\[\033[1;36m\]\t\[\033[00m\]\n\[\033[1;33m\]\h\[\033[00m\]:\[\033[01;35m\]\w\[\033[00m\]\$ '
     else
